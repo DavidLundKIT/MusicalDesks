@@ -3,11 +3,11 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.3.32929.385
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MusicalDesks.Server", "MusicalDesks\Server\MusicalDesks.Server.csproj", "{4909E985-7CEC-4FF6-9CE1-9923666FCCEF}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MusicalDesks.Server", "MusicalDesks\Server\MusicalDesks.Server.csproj", "{4909E985-7CEC-4FF6-9CE1-9923666FCCEF}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MusicalDesks.Client", "MusicalDesks\Client\MusicalDesks.Client.csproj", "{C4931FF4-12EF-416D-8551-5C78109F2522}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MusicalDesks.Client", "MusicalDesks\Client\MusicalDesks.Client.csproj", "{C4931FF4-12EF-416D-8551-5C78109F2522}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MusicalDesks.Shared", "MusicalDesks\Shared\MusicalDesks.Shared.csproj", "{D802A1FD-6C5F-40C9-90B6-45E45F308EDD}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MusicalDesks.Shared", "MusicalDesks\Shared\MusicalDesks.Shared.csproj", "{D802A1FD-6C5F-40C9-90B6-45E45F308EDD}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
