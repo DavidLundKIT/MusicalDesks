@@ -1,3 +1,4 @@
+using BlazorStrap;
 using Microsoft.AspNetCore.Components.Web;
 using Microsoft.AspNetCore.Components.WebAssembly.Hosting;
 using MusicalDesks.Client;
@@ -13,7 +14,7 @@ namespace MusicalDesks.Client
             builder.RootComponents.Add<HeadOutlet>("head::after");
 
             builder.Services.AddScoped(sp => new HttpClient { BaseAddress = new Uri(builder.HostEnvironment.BaseAddress) });
-
+            builder.Services.AddBlazorStrap();
             await builder.Build().RunAsync();
         }
     }
